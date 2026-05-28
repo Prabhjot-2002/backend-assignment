@@ -1,0 +1,44 @@
+# Backend Assignment
+
+A production-style backend project built using Node.js, Express.js, MySQL, Sequelize ORM, JWT authentication, and Discord bot integration.
+
+## Features
+
+- User signup and login
+- Password hashing with bcrypt
+- JWT token generation after authentication
+- Duplicate username validation
+- MySQL database with Sequelize ORM
+- Discord bot with slash commands
+- Environment variables using `.env`
+- REST API structure
+
+## Tech Stack
+
+- Node.js
+- Express.js
+- MySQL
+- Sequelize ORM
+- JWT
+- bcryptjs
+- discord.js
+- dotenv
+
+## API Endpoints
+
+### Auth
+- `POST /api/v1/auth/signup`
+- `POST /api/v1/auth/login`
+
+## Discord Commands
+
+- `/ppcreateuser`
+- `/ppcreateservice`
+- `/ppgetuser`
+
+## Setup Instructions
+
+### 1. Clone the repository
+```bash
+git clone <your-repo-url>
+cd backend-assignment
