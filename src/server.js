@@ -1,5 +1,5 @@
 require("dotenv").config();
-
+require("./discord/bot");
 const app = require("./app");
 const sequelize = require("./config/db");
 
