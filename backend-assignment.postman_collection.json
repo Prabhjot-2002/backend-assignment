@@ -1,0 +1,90 @@
+{
+	"info": {
+		"_postman_id": "8a9894db-3f70-4f46-ac6a-416d9f1f7389",
+		"name": "backend-assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "53249435",
+		"_collection_link": "https://prabhjotsingh9737-5614040.postman.co/workspace/Prabhjot-Singh's-Workspace~bd704bee-7588-4fa8-86d8-0110f9d1b816/collection/53249435-8a9894db-3f70-4f46-ac6a-416d9f1f7389?action=share&source=collection_link&creator=53249435"
+	},
+	"item": [
+		{
+			"name": "signup api",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhMGFkMzY5MWE0YzcxYTA2MDBjYWQ1ZCIsImlhdCI6MTc3OTA5NDQxOSwiZXhwIjoxNzc5Njk5MjE5fQ.IssjMBJef2CdjyORZDDNBclzFIs5jHvOPslK92jSfnU",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"User1\",\r\n  \"password\": \"123456\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5000/api/v1/auth/signup",
+				"description": "create user"
+			},
+			"response": []
+		},
+		{
+			"name": "login api",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"User1\",\r\n  \"password\": \"123456\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5000/api/v1/auth/login"
+			},
+			"response": []
+		},
+		{
+			"name": "live signup api",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"liveuser\",\r\n  \"password\": \"123456\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://backend-assignment-in3c.onrender.com/api/v1/auth/signup"
+			},
+			"response": []
+		},
+		{
+			"name": "live login api",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"liveuser\",\r\n  \"password\": \"123456\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://backend-assignment-in3c.onrender.com/api/v1/auth/signup"
+			},
+			"response": []
+		}
+	]
+}

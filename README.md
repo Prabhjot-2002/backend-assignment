@@ -42,3 +42,5 @@ A production-style backend project built using Node.js, Express.js, MySQL, Seque
 ```bash
 git clone <your-repo-url>
 cd backend-assignment
+
+Deployment URL: https://backend-assignment-in3c.onrender.com
