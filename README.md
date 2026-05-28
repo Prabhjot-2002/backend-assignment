@@ -44,3 +44,5 @@ git clone <your-repo-url>
 cd backend-assignment
 
 Deployment URL: https://backend-assignment-in3c.onrender.com
+
+Discord bot invite link- https://discord.com/oauth2/authorize?client_id=1509566777972228347&permissions=2147485696&integration_type=0&scope=bot+applications.commands
